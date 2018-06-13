@@ -1,0 +1,31 @@
+.project-img {
+    background-size: cover;
+    background-position: center;
+}
+
+
+#projects p{
+    margin: 0 5rem 0 5rem;
+
+}
+
+
+#projects {
+    #text-tag {
+        padding: 6rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #projects {
+        #text-tag {
+            padding: 1rem !important;
+        }
+    }
+}
+
+
+@media (max-width: 548px) {
+
+}

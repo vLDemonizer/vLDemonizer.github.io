@@ -1,0 +1,17 @@
+@mixin font-style($spacing) {
+    font-family: 'Open Sans', 'sans-serif';
+    letter-spacing: $spacing;
+}
+
+
+@mixin bg-img($bg-img)  {
+    background-image: $bg-img;
+    
+}
+
+
+@mixin secondary-img($img) {
+    background-image: $img;
+    background-size: cover;
+    background-position: center;
+}

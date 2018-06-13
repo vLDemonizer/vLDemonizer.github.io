@@ -1,0 +1,149 @@
+#about p {
+  font-size: 22px;
+  color: #333;
+}
+
+.section-title span {
+  font-size: 150%;
+  font-weight: 400;
+}
+
+
+#what-i-do {
+  background-color: $secondary-color;
+}
+
+
+#what-i-do {
+  .icon-detail {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    color: #333;
+    background: none;
+    border: 10px solid $yellow;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}
+
+
+.icon-detail {
+    font-size: 70px;
+    text-align: center;
+    color: $secondary-color;
+}
+
+
+.circle {
+  margin-top: -7px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 5px solid $yellow;
+  border-radius: 50%;
+}
+
+
+#contact {
+  #hire-me {
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+
+#what-i-do {
+  svg{
+      line{ 
+          stroke: $yellow;
+          stroke-width: 12;
+      }
+  }
+}
+
+
+#short-line {
+  span {
+    position: absolute;
+    top: o;
+    left: 125px;
+  }
+}
+
+
+#short-line {
+  position: relative;
+}
+
+
+#short-line {
+  svg {
+    position: absolute;
+    top: 0;
+    left: 140px;
+  }
+}
+
+
+#short-line2 {
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0px;
+  }
+}
+
+
+#short-line2 {
+  span {
+    position: absolute;
+    top: o;
+    left: 136px;
+  }
+}
+
+
+// Media Query
+
+
+@media (min-width: 768px) {
+
+
+  #hidden-line {
+    display: none;
+  }
+}
+
+
+@media (max-width:768px) {
+
+
+  #div-line {
+      display: none;
+  }
+
+
+  #hidden-line {
+    display: block;
+  }
+
+
+  #my-mail {
+    font-size: 14px !important;
+  }
+
+
+  #what-i-do {
+    p {
+      margin: 3rem;
+    }
+  }
+
+
+}

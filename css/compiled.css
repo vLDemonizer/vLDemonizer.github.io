@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "sans-serif";
+  letter-spacing: 2px;
+}
+
+.bg-color {
+  background-color: #fafcff;
+}
+
+.dotted-bottom {
+  border-bottom: 1px dotted #999;
+}
+
+.bottom-line {
+  height: 6px;
+  background: #ffe600;
+}
+
+.navbar {
+  flex-direction: column !important;
+  border-bottom: 2px solid #333;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+  margin: 0 9px 0 9px;
+}
+
+nav {
+  font-family: "Open Sans", "sans-serif";
+  letter-spacing: 4px;
+}
+
+nav h1 {
+  font-weight: 700;
+}
+
+nav h5, nav li {
+  color: #333;
+  font-size: 14px;
+}
+
+nav h1, nav h5 {
+  margin: 0;
+}
+
+#landing-page {
+  background-image: url("../img/keyboard.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-attachment: fixed;
+}
+
+#landing-page h1 {
+  font-family: "Open Sans", "sans-serif";
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#landing-page p {
+  font-size: 26px;
+  color: #fff;
+}
+
+@media (max-width: 548px) {
+  #landing-page .text-bg {
+    background-color: rgba(87, 87, 87, 0.637);
+    padding-top: 3rem;
+  }
+}
+#about p {
+  font-size: 22px;
+  color: #333;
+}
+
+.section-title span {
+  font-size: 150%;
+  font-weight: 400;
+}
+
+#what-i-do {
+  background-color: #fafcff;
+}
+
+#what-i-do .icon-detail {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  color: #333;
+  background: none;
+  border: 10px solid #ffe600;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.icon-detail {
+  font-size: 70px;
+  text-align: center;
+  color: #fafcff;
+}
+
+.circle {
+  margin-top: -7px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 5px solid #ffe600;
+  border-radius: 50%;
+}
+
+#contact #hire-me p {
+  font-size: 15px;
+}
+
+#what-i-do svg line {
+  stroke: #ffe600;
+  stroke-width: 12;
+}
+
+#short-line span {
+  position: absolute;
+  top: o;
+  left: 125px;
+}
+
+#short-line {
+  position: relative;
+}
+
+#short-line svg {
+  position: absolute;
+  top: 0;
+  left: 140px;
+}
+
+#short-line2 svg {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+#short-line2 span {
+  position: absolute;
+  top: o;
+  left: 136px;
+}
+
+@media (min-width: 768px) {
+  #hidden-line {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #div-line {
+    display: none;
+  }
+
+  #hidden-line {
+    display: block;
+  }
+
+  #my-mail {
+    font-size: 14px !important;
+  }
+
+  #what-i-do p {
+    margin: 3rem;
+  }
+}
+.project-img {
+  background-size: cover;
+  background-position: center;
+}
+
+#projects p {
+  margin: 0 5rem 0 5rem;
+}
+
+#projects #text-tag {
+  padding: 6rem;
+}
+
+@media (max-width: 768px) {
+  #projects #text-tag {
+    padding: 1rem !important;
+  }
+}
+
+/*# sourceMappingURL=css/compiled.css.map */

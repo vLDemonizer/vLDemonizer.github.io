@@ -1,0 +1,35 @@
+#landing-page {
+    background-image: url('../img/keyboard.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+
+#landing-page h1 {
+    @include font-style(1px);
+    font-weight: 500;
+    color: #fff;
+}
+
+
+#landing-page {
+    p {
+    font-size: 26px;
+    color: #fff;
+    }
+}
+
+
+@media (max-width:548px) {
+    #landing-page {
+        .text-bg {
+            background-color: rgba(87, 87, 87, 0.637);
+            padding-top: 3rem;
+        }
+    }
+}

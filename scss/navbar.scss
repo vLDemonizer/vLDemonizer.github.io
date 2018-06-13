@@ -1,0 +1,35 @@
+.navbar {
+    flex-direction: column !important;
+    border-bottom: 2px solid #333;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+
+.nav-item {
+    margin: 0 9px 0 9px;
+}
+
+
+nav {
+    @include font-style(4px);
+}
+
+
+nav h1 {
+    font-weight: 700;
+}
+
+
+nav h5, nav li {
+    color: #333;
+    font-size: 14px;
+}
+
+
+nav h1, nav h5 {
+    margin: 0;
+}
